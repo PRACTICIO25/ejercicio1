@@ -7,20 +7,26 @@
     <title>Contactenos</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" href="images/user.png">
+    <link rel="stylesheet" href="fonts.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
-    <div class="centrado">
-        <nav>
-            <button class="b1" onclick="despleg()">Menú</button>
-            <a href="index.html" class="paginas ocultar">Inicio</a>
-            <a href="#" class="paginas ocultar">Tienda OnLine</a>
-            <a href="#" class="paginas ocultar">Referencias</a>
-            <a href="pagina1.html" class="paginas ocultar">Contactenos</a>
-            <a href="#" class="paginas ocultar">Acerca de Nosotros</a>    
-            <p class="Tventanas">CONTACTENOS</p>
-            <a href="#"><img src="images/user.png" alt="" class="user"></a>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="b1" onclick="despleg()"><span class="icon-menu">Menú</span></a>
+        </div>
+        <nav >
+            <ul>
+                <a href="index.html" class="paginas ocultar"><span class="icon-home">Inicio</span></a>
+                <a href="#" class="paginas ocultar"><span class="icon-cart">Tienda OnLine</span></a>
+                <a href="#" class="paginas ocultar"><span class="icon-list2">Referencias</span></a>
+                <a href="pagina1.html" class="paginas ocultar"><span class="icon-phone">Contactenos</span></a>
+                <a href="#" class="paginas ocultar"><span class="icon-office">Acerca de Nosotros</span></a>       
+            </ul>
+            <h2 class="Tt">CONTACTENOS</h2>
+            <a href="#"><img src="images/user.png" alt="" class="user ocultar"></a>
         </nav>
-    </div>
+    </header>
     <script>
         function despleg(){
             var ancla = document.getElementsByClassName('paginas');

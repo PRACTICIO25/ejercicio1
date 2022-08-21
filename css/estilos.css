@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html{
     background: #0677f8;
 }
@@ -13,7 +18,7 @@ section{
 nav {
     display: flex;
     background: #F806CC;
-    margin: 5px 205px;
+    margin: 5px 160px;
     border-radius: 25px;
     justify-content: center;
     resize: horizontal;
@@ -63,20 +68,15 @@ nav {
 .user {
     display: flex;
     /* flex-direction: column; */
-    /* margin: 0.01px 5px 0.01px 60px; */
-    padding: 8px 8px;
-    width: 40px;
-    height: 40px;
-    justify-content: right;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
     
 }
 
-.centrado {
-    justify-content: center;
-}
-
-.derecha {
-    justify-content: left;
+.Tt {
+    margin: 18px;
+    font-size: small;
 }
 
 @media (max-width: 400px) {
@@ -107,6 +107,7 @@ nav {
         margin: 7px 1px;
         padding: 5px 1px;
         border-radius: 6px;
+        border: 2px solid white;
         text-decoration: none;
         text-align: center;
         font-size: 12px;
