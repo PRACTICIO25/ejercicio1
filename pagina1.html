@@ -17,11 +17,11 @@
         </div>
         <nav >
             <ul>
-                <li><a href="index.html" class="paginas ocultar"><span class="icon-home">Inicio</span></a></li>
-                <li><a href="#" class="paginas ocultar"><span class="icon-cart">Tienda OnLine</span></a></li>
-                <li><a href="#" class="paginas ocultar"><span class="icon-list2">Referencias</span></a></li>
-                <li><a href="pagina1.html" class="paginas ocultar"><span class="icon-phone">Contactenos</span></a></li>
-                <li><a href="#" class="paginas ocultar"><span class="icon-office">Acerca de Nosotros</span></a></li>
+                <li><a href="index.html"><span class="icon-home"></span>Inicio</a></li>
+                <li><a href="#"><span class="icon-cart"></span>Tienda OnLine</a></li>
+                <li><a href="#"><span class="icon-list2"></span>Referencias</a></li>
+                <li><a href="pagina1.html"><span class="icon-phone"></span>Contactenos</a></li>
+                <li><a href="#"><span class="icon-office"></span>Acerca de Nosotros</a></li>
                 <p class="Tt"></p>
                 <li><a href="#" class="user"><img src="images/user.png" alt="Login" class="user"></a></li>   
             </ul>
@@ -30,7 +30,7 @@
     </header>
     <script>
         function despleg(){
-            var ancla = document.getElementsByClassName('paginas');
+            var ancla = document.getElementsByClassName('header nav');
             for(var i = 0; i < ancla.length; i++){
                 ancla[i].classList.toggle('ocultar');
             }

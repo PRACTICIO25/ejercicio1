@@ -44,8 +44,8 @@ header nav ul li a {
     background: #3EC70B;
 }
       
-header nav ul li a span {
-    margin-right:15px;
+header nav ul li span {
+    margin-right:10px;
 }
 
 header nav ul li a:hover {
@@ -60,3 +60,41 @@ header nav ul li a:hover {
     
 }
 
+@media (max-width: 1012px) {
+    header nav {
+		width:80%;
+		height: 100%;
+		left: -100%;
+		margin: 0;
+		position:fixed;
+	}
+    header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#024959;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+    }
+}
