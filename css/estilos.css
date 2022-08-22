@@ -2,158 +2,61 @@
     margin: 0;
     padding: 0;
 }
-
-html{
+body {
     background: #0677f8;
 }
 
-section{
-    background-color: #06c0f8;
-    background-position: right bottom, left top;
-    margin: 15px;
-    padding: 280px;
-    opacity: .3;
+header {
+    width: 100%;
 }
 
-nav {
-    display: flex;
-    background: #F806CC;
-    margin: 5px 160px;
+header nav {
+	width:90%;
+	max-width:1000px;
+	margin:1% auto;
+	background:#F806CC;
     border-radius: 25px;
-    justify-content: center;
-    resize: horizontal;
-    
 }
 
-.paginas {
-    display: inline-flex;
+.menu_bar {
+    display:none;
+}
+
+header nav ul {
+    overflow:hidden;
+    list-style:none;
+    margin: 30px;
+    align-content: center;    
+}
+
+header nav ul li {
+    float: left;
+    margin: 1px 1px;
+}  
+
+header nav ul li a {
+	color:rgb(0, 0, 0);
+	padding:8px;
+    margin: 5px 10px;
+	display:block;
+	text-decoration:none;
+    border-radius: 25px;
     background: #3EC70B;
-    color: black;    
-    margin: 10px 10px;
-    padding: 8px 8px;
-    border-radius: 25px;
-    text-decoration: none;
-    text-align: center;
 }
-.paginas:hover {
+      
+header nav ul li a span {
+    margin-right:15px;
+}
+
+header nav ul li a:hover {
     background: #7009f7;
-    margin: 10px 10px;
-    padding: 8px 8px;
-    
-}
-
-
-.b1 {
-    background: #3EC70B;
-    color: black;    
-    margin: 10px 15px;
-    padding: 10px 15px;
-    border-radius: 25px;
-    text-decoration: none;
-    text-align: right;
-    display: none;
-}
-
-.Tventanas {
-    display: inline-flex;
-    background: #F806CC;
-    color: white;
-    text-align: right;
-    margin: 10px 10px;
-    padding: 8px 8px;
-    border-radius: 25px;
-    
 }
 
 .user {
-    display: flex;
-    /* flex-direction: column; */
-    margin: 10px;
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
+    background: none;
+    margin: 0px 1px;
     
 }
 
-.Tt {
-    margin: 18px;
-    font-size: small;
-}
-
-@media (max-width: 400px) {
-    /* .section{
-        background-color:#06c0f8;
-        background-position:center;
-        background-size: 0.1px 0.1px;
-        margin-right: auto;
-    }
-     */
-    nav {
-        display: inline-flex;
-        background: #F806CC;
-        margin: 20px 3px; 
-        padding: 12px 8%;
-        border-radius: 7px;
-        justify-content: center;
-        
-    }
-
-    .ocultar {
-        display: none;
-    }
-
-    .paginas {
-        background: #3EC70B;
-        color: black;    
-        margin: 7px 1px;
-        padding: 5px 1px;
-        border-radius: 6px;
-        border: 2px solid white;
-        text-decoration: none;
-        text-align: center;
-        font-size: 12px;
-        opacity: 10;
-    }
-
-    .paginas:hover {
-        background: #7009f7;
-        margin: 7px 1px;
-        padding: 5px 1px;
-        
-    }
-    
-
-    .b1 {
-        background: #3EC70B;
-        color: black;    
-        margin: 5px 5px;
-        padding: 5px 20px;
-        border-radius: 6px;
-        text-decoration: none;
-        text-align: center;
-        font-size: 12px;
-        
-    }
-
-    .Tventanas {
-        background: #F806CC;
-        display: inline-flex;
-        color: white;
-        font-size: medium;
-        text-align: center;
-        margin: 1px;
-        padding: 2.5% 80px;
-        border-radius: 25px;
-        
-    }
-
-    .user {
-        flex-direction: column;
-        margin: 1px 350px;
-        
-    }
-
-    .grid {
-        display: grid;
-    }
-
-}
