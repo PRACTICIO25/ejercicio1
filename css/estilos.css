@@ -73,6 +73,7 @@ section {
 		position:fixed;
         border-radius: 0px 25px;
 	}
+	
     header nav ul li {
 		display:block;
 		float:none;
@@ -102,10 +103,13 @@ section {
 		font-size:20px;
         float: right;
     }
-
-    header nav ul {
+	
+	header nav ul {
         list-style:none;
         margin: 5px;
-        align-content: center;    
+        align-content: center;
     }
+	
+	.ocultar{
+		display: none;
 }
