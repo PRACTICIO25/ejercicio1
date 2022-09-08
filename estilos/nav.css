@@ -201,15 +201,15 @@ footer{
     }
 
     article {
-        font-size: 8pt;
+        font-size: 9pt;
     }
 
     article:hover {
-        font-size: 8pt;
+        font-size: 9pt;
     }
 
     aside {
-        font-size: 8pt;
+        font-size: 9pt;
     }
 }
 
