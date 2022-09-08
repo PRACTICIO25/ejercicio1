@@ -188,11 +188,11 @@ footer{
 }
 @media (max-width: 629px){
     header .etiquetas{
-        padding: .6% 3%;
+        padding: .6% 5%;
     }
     
     header .etiquetas:hover{
-        padding: .6% 3%;
+        padding: .6% 5%;
     }
 
     article {
