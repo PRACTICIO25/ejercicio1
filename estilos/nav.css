@@ -31,7 +31,7 @@ header .etiquetas{
 
 header .etiquetas:hover{
     background-color: #F9B208;
-    padding: 1% 2%;
+    padding: .6% 2%;
     margin: 2% 1%;
     border-radius: 25px;
     text-decoration: none;
@@ -201,15 +201,15 @@ footer{
     }
 
     article {
-        font-size: 8pt;
+        font-size: 10pt;
     }
 
     article:hover {
-        font-size: 8pt;
+        font-size: 10pt;
     }
 
     aside {
-        font-size: 8pt;
+        font-size: 10pt;
     }
 }
 
