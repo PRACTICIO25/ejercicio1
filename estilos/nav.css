@@ -97,6 +97,7 @@ aside{
 
 footer{
     width: 98%;
+    position: relative;
     background-color: #E13A9D;
     padding: 1%;
     text-align: center;
