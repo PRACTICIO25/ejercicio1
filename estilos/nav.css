@@ -43,7 +43,7 @@ header .etiquetas:hover{
 
 section{
     /* background-color: red; */
-    display: flex;
+    display: flexbox;
     margin: 5px;
     padding: 10px;
     grid-template-columns: 50% 50%;
