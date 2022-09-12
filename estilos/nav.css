@@ -54,7 +54,7 @@ header nav span {
 }
 
 article{
-    display: flex;
+    display: block;
     background-color: #F7FD04;
     grid-column: 1;
     grid-row: 1;
