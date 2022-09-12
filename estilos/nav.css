@@ -16,6 +16,11 @@ header nav{
     padding: 12px;
 }
 
+div {
+    margin: 1%;
+    padding: 1%;
+}
+
 .menu_barr {
     display:none;
 }
