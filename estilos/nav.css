@@ -43,7 +43,7 @@ header .etiquetas:hover{
 
 section{
     /* background-color: red; */
-    display: -webkit-flex;
+    display: flex;
     margin: 5px;
     padding: 10px;
     grid-template-columns: 50% 50%;
@@ -54,7 +54,7 @@ header nav span {
 }
 
 article{
-    display: block;
+    display: flex;
     background-color: #F7FD04;
     grid-column: 1;
     grid-row: 1;
